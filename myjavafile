@@ -1,7 +1,11 @@
 class parent{
 public void main(){
-system.out.println();
+system.out.println("this is parent class method");
 }
+}
+class child extends parent{
+public void main(){
+system.out.println("this is child class method")
 }
 class A{
 public static void main(String args[]){
